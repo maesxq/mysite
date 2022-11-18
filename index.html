@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./мишка фреди/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav>
+      <h1>Вера Торопчина</h1>
+      <ul>
+        <li><a href="#about" class="nav-link">Обо мне</a></li>
+        <li><a href="#skills" class="nav-link">Навыки</a></li>
+        <li><a href="#projects" class="nav-link">Проекты</a></li>
+        <li><a href="#contact" class="nav-link">Контакты</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <section class="person" id="about">
+      <img
+        src="./мишка фреди/img/girl2.png"
+        alt="my photo"
+        loading="lazy"
+        class="person-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Обо мне</h2>
+        <p class="bio-roknrolllll">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+          tempore!
+        </p>
+      </div>
+    </section>
+    <section class="more-about">
+      <h2>Дополнительная информация обо мне</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+        excepturi molestias sapiente quaerat eaque alias assumenda quae aliquid
+        officiis. Necessitatibus natus harum error facilis nemo hic id beatae
+        accusamus iusto.
+      </p>
+      <p>
+        Eaque veniam tempore quae fuga totam! Maxime, commodi quam eum tempore
+        vitae harum veniam assumenda, incidunt itaque rerum nemo dignissimos
+        atque sapiente eveniet dolorem officia esse? Amet quam temporibus animi.
+      </p>
+      <p>
+        Voluptate, necessitatibus! Delectus, repellat? Illo, quaerat.
+        Asperiores, deserunt. Vel quisquam nihil velit est ea accusantium a,
+        neque harum, alias similique impedit corporis excepturi facere? Itaque,
+        ullam tempore! Doloremque, eius deserunt!
+      </p>
+    </section>
+    <section class="skills" id="skills">
+      <h3>Мои навыки</h3>
+      <div class="wrapper">
+        <div class="skills-set">
+          <img
+            src="./мишка фреди/iqos/icons8-html-5.svg"
+            alt="иконка"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./мишка фреди/iqos/icons8-css3.svg"
+            alt="иконка"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./мишка фреди/iqos/icons8-javascript.svg"
+            alt="иконка"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="skills-set">
+          <img
+            src="./мишка фреди/iqos/icons8-bootstrap.svg"
+            alt="иконка"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./мишка фреди/iqos/icons8-react-native.svg"
+            alt="иконка"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./мишка фреди/iqos/icons8-git.svg"
+            alt="иконка"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h3 class="projects-title">Несколько из моих проектов</h3>
+      <div class="projects-container">
+        <div class="project-container">
+          <img
+            src="./мишка фреди/img/calc.png"
+            alt="проект-калькулятор"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h4 class="project-title">Калькулятор</h4>
+          <p class="project-detalis">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At in,
+            consequatur odit blanditiis aut eaque.
+          </p>
+          <a href="#" target="_blank" class="project-line">Узнать больше</a>
+        </div>
+        <div class="project-container">
+          <img
+            src="./мишка фреди/img/food.png"
+            alt="проект-еды"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h4 class="project-title">еда</h4>
+          <p class="project-detalis">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At in,
+            consequatur odit blanditiis aut eaque.
+          </p>
+          <a href="#" target="_blank" class="project-line">Узнать больше</a>
+        </div>
+        <div class="project-container">
+          <img
+            src="./мишка фреди/img/portfolio.png"
+            alt="проект-портфолио"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h4 class="project-title">Портфолио</h4>
+          <p class="project-detalis">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At in,
+            consequatur odit blanditiis aut eaque.
+          </p>
+          <a href="#" target="_blank" class="project-line">Узнать больше</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h4>Связаться со мной</h4>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="#" method="post">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="send-name"
+                placeholder="Введите свое имя"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="send-email"
+                placeholder="Введите свою почту"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Введите свое сообщение"
+                class="input-field"
+                required
+              >
+              </textarea>
+            </div>
+            <div class="form-control">
+              <input
+                type="submit"
+                value="Отправить"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="socials">
+      <a href="#" target="_blank">
+        <img
+          src="./мишка фреди/iqos/icons8-twitter-circled.gif"
+          alt="twitter"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+      <a href="#" target="_blank">
+        <img
+          src="./мишка фреди/iqos/insta.gif"
+          alt="insta"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank">
+        <img
+          src="./мишка фреди/iqos/link.gif"
+          alt="link"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank">
+        <img
+          src="./мишка фреди/iqos/icons8-github.gif"
+          alt="githab"
+          loading="lazy"
+          class="socicon"
+      /></a>
+    </div>
+    <i class="scroll-up" id="scroll-up">
+      <img
+        src="/мишка фреди/iqos/иконка стрелки.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+      />
+    </i>
+    <footer>
+      <p class="copy">© Copyright 2022.</p>
+      <p class="copy">
+        Создано
+        <a href="#" target="_blank">Верой Торопчиной</a>
+      </p>
+    </footer>
+    <script src="./мишка фреди/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "
+    ></script>
+    <script
+      nomodule
+      src="
+    https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js
+    "
+    ></script>
+  </body>
+</html>
